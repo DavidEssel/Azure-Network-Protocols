@@ -43,7 +43,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 </p>
 <p>
-Open Azure and create a Resouce Group. Then Create a VM on Windows 10/11 using the resouce group and allow the VM to create a new Virtual Network(Vnet) and Subnet. Next create another VM on Linex using the same resouce group and Vnet. Then observe the Virtual Network within Network Watcher. Now open Remote Desktop to connect to Windows 10 VM, then install Wireshark Windows 64x Installer and filter ICMP traffic. Use the Private IP address of the Linex VM and ping to it from Windows VM (should see request/reply traffic from both machines). Next in Windows VM, opem command line or Powershell and ping a public website(www.google.com) and observe traffic in Wireshark. 
+Create Resouce Group. Create VM on Windows 10/11 using rg, allow VM to create new Vnet and Subnet. Create another VM on Linex using resouce group and Vnet. observe Virtual Network within Network Watcher. Remote Desktop > connect to Windows 10 VM, install Wireshark Windows 64x Installer > filter ICMP traffic.  Ping Private IP address of the Linex VM to it from Windows VM (should see request/reply traffic from both machines). Next in Windows VM, opem command line or Powershell and ping a public website(www.google.com) and observe traffic in Wireshark. 
 </p>
 <br />
 
